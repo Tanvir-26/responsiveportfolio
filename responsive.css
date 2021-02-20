@@ -1,0 +1,400 @@
+/* tablet mode  */
+@media only screen and (min-width:768px) and (max-width:991px){
+
+
+    .logo{
+        width: 15%;
+        margin-left: 60px;
+    }
+    .menu{
+        width: 55%;
+    }
+    .menu ul li a {
+        font-size: 16px;
+        padding: 10px 12px;
+    }
+    .first {
+        width: 30%;
+        margin-left: 0px;
+        margin-top: 33px;
+    }
+    .second{
+        width: 55%;
+        float: right;  
+    }
+    .floating{
+        margin-left: 123px;
+    }
+    .second #me {
+        margin-left: 150px;
+        height: 430px;
+    }
+    .first h2 {
+        font-size: 25px;
+    }
+    .first h1 {
+        font-size: 34px;
+    }
+    .pic img {
+        height: 400px;
+    }
+    .thirdsec .pic {
+        margin-left: 15px;
+    }
+    .thirdsec .aboutme {
+        margin-right: 35px;
+    }
+    .aboutme h3 {
+        font-size: 25px;
+    }
+    .aboutme p {
+        font-size: 16px;
+    }
+    .aboutme ul {
+        font-size: 20px;
+    }
+    .fas {
+        font-size: 30px;
+    }
+    .content .box h2 {
+        font-size: 20px;
+    }
+    .content .box p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .fourthsec h5 {
+        width: 17%;
+        font-size: 35px;
+    }
+    .content .box{
+        height: 320px;
+        padding: 15px 10px;
+    }
+    .fifthsec h6{
+        width: 27%;
+    }
+    .plan .boxplan {
+        margin-left: 130px;
+        width: 25%;
+    height: 100px;
+    padding: 20px 20px;
+    }
+    .boxplan h2{
+        font-size: 25px;
+    }
+    .boxplan p{
+        font-size: 17px;
+        margin-top: 1px;
+    }
+    .fifthpic img {
+        height: 465px;
+    }
+    .address .addressdetails {
+        margin-right: 5px;
+        height: 245px;
+    }
+    .addressdetails h2 {
+        font-size: 25px;
+    }
+    .addressdetails p {
+        font-size: 19px;
+        margin-left: 15px;
+    }
+    input {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    textarea{
+        font-size: 15px;
+    }
+    .contactform .form {
+        padding-bottom: 12.5px;
+        margin-right: 60px;
+    }
+
+
+}
+
+
+/* mobile device */
+@media only screen and (min-width:480px) and (max-width:767px){
+
+
+    .logo{
+        width: 15%;
+        margin-left: 60px;
+        font-size: 30px;
+        padding: 15px 0px;
+    }
+    .menu{
+        width: 65%;
+    }
+    .menu ul li a {
+        font-size: 13px;
+        padding: 10px 5px;
+    }
+    .first {
+        width: 75%;
+        margin-left: 0px;
+        margin-top: 33px;
+    }
+    .second{
+        width: 55%;
+        float: right;  
+    }
+    .floating{
+        margin-left: 123px;
+        display: none;
+    }
+    .second #me {
+        margin-left: 150px;
+        height: 430px;
+        display: none;
+    }
+    .first h2 {
+        font-size: 25px;
+    }
+    .first h1 {
+        font-size: 34px;
+    }
+    .pic img {
+        height: 400px;
+    }
+    .thirdsec .pic {
+        margin-left: 15px;
+        display: none;
+    }
+    .thirdsec .aboutme {
+        margin-left: 35px;
+        float: left;
+        width: 75%;
+    }
+    .aboutme h3 {
+        font-size: 25px;
+    }
+    .aboutme p {
+        font-size: 16px;
+    }
+    .aboutme ul {
+        font-size: 20px;
+    }
+    .fas {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .content .box h2 {
+        font-size: 11px;
+    }
+    .content .box p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .fourthsec h5 {
+        width: 30%;
+        font-size: 35px;
+    }
+    .content .box{
+        height: 195px;
+        padding: 15px 10px;
+    }
+    .content .box p{
+        padding: 5px 5px;
+    }
+    .fifthsec h6{
+        width: 45%;
+    }
+    .plan .boxplan {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 25%;
+        height: 100px;
+    }
+    .boxplan h2{
+        font-size: 25px;
+    }
+    .boxplan p{
+        font-size: 17px;
+        margin-top: 1px;
+    }
+    .fifthpic img {
+        height: 465px;
+        display: none;
+    }
+    .sixthsec h6 {
+        width: 25%;
+    }
+    .address .addressdetails {
+        margin-right: -10px;
+        height: 215px;
+        width: 60%;
+        padding: 15px 30px;
+    }
+    .addressdetails h2 {
+        font-size: 25px;
+    }
+    .addressdetails p {
+        font-size: 12px;
+        margin-left: 6px;
+    }
+    input {
+        font-size: 10px;
+        margin-bottom: 9.5px;
+        padding: 5px 10px;
+    }
+    textarea{
+        font-size: 10px;
+    }
+    .contactform .form {
+        padding-bottom: 12.5px;
+        margin-right: 30px;
+    }
+    .fifthsec .plan {
+        width: 100%;
+    }
+    #btn {
+        width: 70px;
+    }
+
+}
+
+/* for small device */
+@media only screen and (min-width:200px) and (max-width:479px){
+
+    .logo{
+        width: 15%;
+        margin-left: 60px;
+        font-size: 30px;
+        padding: 15px 0px;
+    }
+    .menu{
+        width: 65%;
+    }
+    .menu ul li a {
+        font-size: 13px;
+        padding: 10px 5px;
+    }
+    .first {
+        width: 75%;
+        margin-left: 0px;
+        margin-top: 33px;
+    }
+    .second{
+        width: 55%;
+        float: right;  
+    }
+    .floating{
+        margin-left: 123px;
+        display: none;
+    }
+    .second #me {
+        margin-left: 150px;
+        height: 430px;
+        display: none;
+    }
+    .first h2 {
+        font-size: 25px;
+    }
+    .first h1 {
+        font-size: 34px;
+    }
+    .pic img {
+        height: 400px;
+    }
+    .thirdsec .pic {
+        margin-left: 15px;
+        display: none;
+    }
+    .thirdsec .aboutme {
+        margin-left: 35px;
+        float: left;
+        width: 75%;
+    }
+    .aboutme h3 {
+        font-size: 25px;
+    }
+    .aboutme p {
+        font-size: 16px;
+    }
+    .aboutme ul {
+        font-size: 20px;
+    }
+    .fas {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .content .box h2 {
+        font-size: 11px;
+    }
+    .content .box p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .fourthsec h5 {
+        width: 30%;
+        font-size: 35px;
+    }
+    .content .box{
+        height: 195px;
+        padding: 15px 10px;
+    }
+    .content .box p{
+        padding: 5px 5px;
+    }
+    .fifthsec h6{
+        width: 45%;
+    }
+    .plan .boxplan {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 25%;
+        height: 100px;
+    }
+    .boxplan h2{
+        font-size: 25px;
+    }
+    .boxplan p{
+        font-size: 17px;
+        margin-top: 1px;
+    }
+    .fifthpic img {
+        height: 465px;
+        display: none;
+    }
+    .sixthsec h6 {
+        width: 25%;
+    }
+    .address .addressdetails {
+        margin-right: -10px;
+        height: 215px;
+        width: 60%;
+        padding: 15px 30px;
+    }
+    .addressdetails h2 {
+        font-size: 25px;
+    }
+    .addressdetails p {
+        font-size: 12px;
+        margin-left: 6px;
+    }
+    input {
+        font-size: 10px;
+        margin-bottom: 9.5px;
+        padding: 5px 10px;
+    }
+    textarea{
+        font-size: 10px;
+    }
+    .contactform .form {
+        padding-bottom: 12.5px;
+        margin-right: 30px;
+    }
+    .fifthsec .plan {
+        width: 100%;
+    }
+    #btn {
+        width: 70px;
+    }
+
+
+}
